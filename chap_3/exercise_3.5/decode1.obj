@@ -1,0 +1,25 @@
+
+decode1.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <decode1>:
+   0:	83 ec 0c             	sub    $0xc,%esp
+   3:	89 1c 24             	mov    %ebx,(%esp)
+   6:	89 74 24 04          	mov    %esi,0x4(%esp)
+   a:	89 7c 24 08          	mov    %edi,0x8(%esp)
+   e:	8b 44 24 10          	mov    0x10(%esp),%eax
+  12:	8b 4c 24 14          	mov    0x14(%esp),%ecx
+  16:	8b 54 24 18          	mov    0x18(%esp),%edx
+  1a:	8b 38                	mov    (%eax),%edi
+  1c:	8b 31                	mov    (%ecx),%esi
+  1e:	8b 1a                	mov    (%edx),%ebx
+  20:	89 39                	mov    %edi,(%ecx)
+  22:	89 32                	mov    %esi,(%edx)
+  24:	89 18                	mov    %ebx,(%eax)
+  26:	8b 1c 24             	mov    (%esp),%ebx
+  29:	8b 74 24 04          	mov    0x4(%esp),%esi
+  2d:	8b 7c 24 08          	mov    0x8(%esp),%edi
+  31:	83 c4 0c             	add    $0xc,%esp
+  34:	c3                   	ret    
