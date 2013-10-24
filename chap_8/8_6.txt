@@ -1,0 +1,86 @@
+Command line arguements:
+  argv[ 0]: ./8_6
+  argv[ 1]: arg1
+  argv[ 2]: arg2
+
+Environment variables: 
+  envp[ 0]: XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+  envp[ 1]: XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome-classic:/etc/xdg
+  envp[ 2]: LC_TELEPHONE=zh_CN.UTF-8
+  envp[ 3]: LANG=en_US.UTF-8
+  envp[ 4]: DISPLAY=:0.0
+  envp[ 5]: PWD=/home/xuefu-sh/Documents/Computer-Systems/chap_8
+  envp[ 6]: LOGNAME=xuefu-sh
+  envp[ 7]: LANGUAGE=en
+  envp[ 8]: MANDATORY_PATH=/usr/share/gconf/gnome-classic.mandatory.path
+  envp[ 9]: GNOME_KEYRING_PID=5274
+  envp[10]: LC_NAME=zh_CN.UTF-8
+  envp[11]: XAUTHORITY=/home/xuefu-sh/.Xauthority
+  envp[12]: COLORTERM=gnome-terminal
+  envp[13]: DESKTOP_SESSION=gnome-classic
+  envp[14]: DEFAULTS_PATH=/usr/share/gconf/gnome-classic.default.path
+  envp[15]: GDMSESSION=gnome-classic
+  envp[16]: GNOME_KEYRING_CONTROL=/tmp/keyring-FvDQLs
+  envp[17]: GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+  envp[18]: LC_MEASUREMENT=zh_CN.UTF-8
+  envp[19]: LC_PAPER=zh_CN.UTF-8
+  envp[20]: LC_IDENTIFICATION=zh_CN.UTF-8
+  envp[21]: LC_MONETARY=zh_CN.UTF-8
+  envp[22]: DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-7zXKGvXicB,guid=84e66d1f145efec2180fcdab00002c1b
+  envp[23]: UBUNTU_MENUPROXY=libappmenu.so
+  envp[24]: XDG_DATA_DIRS=/usr/share/gnome-classic:/usr/share/gnome:/usr/local/share/:/usr/share/
+  envp[25]: LC_NUMERIC=zh_CN.UTF-8
+  envp[26]: XDG_SESSION_COOKIE=df4974f39185e32d9816472e00000006-1381638641.246138-267113544
+  envp[27]: SHELL=/bin/zsh
+  envp[28]: LC_TIME=zh_CN.UTF-8
+  envp[29]: WINDOWID=48234502
+  envp[30]: SSH_AGENT_PID=5322
+  envp[31]: SESSION_MANAGER=local/xuefu-sh:@/tmp/.ICE-unix/5285,unix/xuefu-sh:/tmp/.ICE-unix/5285
+  envp[32]: XDG_CURRENT_DESKTOP=GNOME
+  envp[33]: SSH_AUTH_SOCK=/tmp/keyring-FvDQLs/ssh
+  envp[34]: PATH=/home/xuefu-sh/.rvm/gems/ruby-2.0.0-p247/bin:/home/xuefu-sh/.rvm/gems/ruby-2.0.0-p247@global/bin:/home/xuefu-sh/.rvm/rubies/ruby-2.0.0-p247/bin:/home/xuefu-sh/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/xuefu-sh/.rvm/bin
+  envp[35]: TERM=xterm
+  envp[36]: HOME=/home/xuefu-sh
+  envp[37]: USER=xuefu-sh
+  envp[38]: LIBGL_DRIVERS_PATH=/usr/lib/fglrx/dri:/usr/lib/x86_64-linux-gnu/dri:/usr/lib/dri:/usr/lib32/fglrx/dri:/usr/lib/i386-linux-gnu/dri
+  envp[39]: LC_ADDRESS=zh_CN.UTF-8
+  envp[40]: XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+  envp[41]: GPG_AGENT_INFO=/tmp/keyring-FvDQLs/gpg:0:1
+  envp[42]: SHLVL=1
+  envp[43]: OLDPWD=/home/xuefu-sh/Documents/Computer-Systems
+  envp[44]: GREP_OPTIONS=--color=auto
+  envp[45]: GREP_COLOR=1;32
+  envp[46]: PAGER=less
+  envp[47]: LESS=-R
+  envp[48]: LC_CTYPE=en_US.UTF-8
+  envp[49]: LSCOLORS=Gxfxcxdxbxegedabagacad
+  envp[50]: rvm_path=/home/xuefu-sh/.rvm
+  envp[51]: rvm_prefix=/home/xuefu-sh
+  envp[52]: rvm_bin_path=/home/xuefu-sh/.rvm/bin
+  envp[53]: _system_type=Linux
+  envp[54]: _system_name=Ubuntu
+  envp[55]: _system_version=12.04
+  envp[56]: _system_arch=x86_64
+  envp[57]: rvm_version=1.22.9 ()
+  envp[58]: RUBY_VERSION=ruby-2.0.0-p247
+  envp[59]: GEM_HOME=/home/xuefu-sh/.rvm/gems/ruby-2.0.0-p247
+  envp[60]: GEM_PATH=/home/xuefu-sh/.rvm/gems/ruby-2.0.0-p247:/home/xuefu-sh/.rvm/gems/ruby-2.0.0-p247@global
+  envp[61]: MY_RUBY_HOME=/home/xuefu-sh/.rvm/rubies/ruby-2.0.0-p247
+  envp[62]: IRBRC=/home/xuefu-sh/.rvm/rubies/ruby-2.0.0-p247/.irbrc
+  envp[63]: rvm_alias_expanded=
+  envp[64]: rvm_docs_type=
+  envp[65]: rvm_gemstone_package_file=
+  envp[66]: rvm_gemstone_url=
+  envp[67]: rvm_niceness=
+  envp[68]: rvm_nightly_flag=
+  envp[69]: rvm_proxy=
+  envp[70]: rvm_quiet_flag=
+  envp[71]: rvm_ruby_file=
+  envp[72]: rvm_ruby_make=
+  envp[73]: rvm_ruby_make_install=
+  envp[74]: rvm_ruby_mode=
+  envp[75]: rvm_script_name=
+  envp[76]: rvm_sdk=
+  envp[77]: rvm_silent_flag=
+  envp[78]: rvm_wrapper_name=
+  envp[79]: _=/home/xuefu-sh/Documents/Computer-Systems/chap_8/./8_6
