@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Bootstrap 101 Template</title>
+                <link rel="icon" href="img.png" size="32*32">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <h1><center>Hello World!</center></h1>
+		
+		<div class="container">
+
+		<span id="counter">140</span><br/>
+
+		<textarea id="status"  name="status" rows="6" cols="40" onkeydown='countChar("status","counter");' onkeyup='countChar("status","counter");'></textarea>
+
+		</div>
+
+		<script language="javascript"> 
+			function countChar(textareaName,spanName)
+			{ 
+				var max = 140;
+				var s=document.getElementById(textareaName).value.length;  
+   				if(s > max)
+   					document.getElementById(textareaName).value=document.getElementById(textareaName).value.substr(0,max) 
+ 				document.getElementById(spanName).innerHTML = max - document.getElementById(textareaName).value.length;
+			}		 
+		</script> 
+		<script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+    </html>

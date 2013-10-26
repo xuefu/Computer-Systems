@@ -1,0 +1,5 @@
+2013/10/24 09:53:41 [emerg] 2284#3100: CreateFile() "C:\Documents and Settings\liuqingfeng\桌面\N820\xypc\nginx-1.4.3/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2013/10/24 09:53:55 [emerg] 5604#5708: CreateFile() "C:\Documents and Settings\liuqingfeng\桌面\N820\xypc\nginx-1.4.3/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2013/10/24 09:53:56 [emerg] 2852#2976: CreateFile() "C:\Documents and Settings\liuqingfeng\桌面\N820\xypc\nginx-1.4.3/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2013/10/24 09:53:58 [emerg] 3452#980: CreateFile() "C:\Documents and Settings\liuqingfeng\桌面\N820\xypc\nginx-1.4.3/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2013/10/24 09:56:38 [emerg] 2852#1060: CreateFile() "C:\Documents and Settings\liuqingfeng\桌面\N820\xypc\nginx-1.4.3/conf/nginx.conf" failed (3: The system cannot find the path specified)

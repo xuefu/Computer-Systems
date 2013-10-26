@@ -1,0 +1,135 @@
+body {
+  background-color: #dde3e4;
+}
+.headers {
+	display: inline;
+
+}
+
+.icon {
+	display: inline-block;
+	margin: 30px;
+}
+
+.nav-self {
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.ul-pad {
+	padding: 15px;
+	font-weight: bold;
+
+}
+
+.ul-pad a {
+	color: #545454;
+	font-size: 16px;
+}
+
+.dropdown-menu li a {
+	font-size: 15px;
+}
+
+
+.car-info {
+	float: left;
+  width: 502px;
+  height: 356px;
+}
+
+.car-owner {
+	width: 218px;
+	height: 356px;
+	float: right;
+  background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.owner-icon {
+  width: 64px;
+  height: 64px;
+  float: left;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.owner-info {
+  width: 134px;
+  height: 74px;
+  float: right;
+  display:inline-block;
+  text-align: center;
+}
+
+.message {
+  border: 1px solid #8c8c8c;
+  border-radius: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.message:hover {
+  color: #f47321;
+  background-color: #dde3e4;
+}
+
+.phone {
+  width: 188px;
+  height: 40px;
+  display: inline-block;
+  background-color: #dde3e4;
+  border: 1px solid #cccccc;
+  margin: 25px 10px 10px 10px;
+  border-radius: 3px;
+}
+
+.phone-img {
+  display: inline-block;
+  float: left;
+  padding: 8px 15px 15px 25px;
+}
+
+.phone-number {
+  display: inline-block;
+  float: right;
+  padding: 3px 25px 15px 5px;
+  text-align: center;
+}
+
+.comments {
+  height: 150px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 2px solid #dde3e4;
+  border-radius: 5px;
+}
+
+.comments-user {
+  display: inline-block;
+  margin: 10px 10px 0px 10px;
+}
+
+.comments-user-icon {
+  display: inline-block;
+}
+
+.comments-user-info {
+  display: inline-block;
+}
+
+.comments-content {
+  margin-left: 70px;
+}
+
+.comments-reply {
+  margin: 0px 25px 5px 10px;
+}

@@ -1,0 +1,49 @@
+body {
+  background-color: #dde3e4;
+}
+.header {
+	height: 20px;
+	margin-top: 50px;
+	margin-bottom: 250px;
+}
+.car {
+  margin-right: 13px;
+  margin-left: 13px;
+	display: block;
+}
+
+
+.line-block {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.car-card-1 {
+	float: left;
+	width: 380px;
+	height: 150px;
+	border-radius: 3px;
+  background-color: #ffffff;
+  margin-left: 13px;
+}
+
+.car-card-2 {
+	float: right;
+	width: 380px;
+	height: 150px;
+	margin-left: 11px;
+	border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover a:link a:active {
+  color: #b7410e;
+  text-decoration: none;
+}
