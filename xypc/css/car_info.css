@@ -40,8 +40,6 @@ ul li {
 
 .car-info {
 	float: left;
-  width: 502px;
-  height: 356px;
 }
 
 .car-owner {
@@ -106,7 +104,6 @@ ul li {
 }
 
 .comments {
-  height: 150px;
   margin-top: 20px;
   background-color: #ffffff;
   border: 2px solid #dde3e4;
@@ -131,5 +128,11 @@ ul li {
 }
 
 .comments-reply {
-  margin: 0px 25px 5px 10px;
+  position: relative;
+  right: 20px;
+  bottom: 25px;
+}
+
+.input-comments {
+  margin-top: 25px;
 }

@@ -1,0 +1,116 @@
+
+body {
+  background-color: #dde3e4;
+}
+
+.headers {
+  display: inline;
+
+}
+
+.icon {
+  display: inline-block;
+  margin: 30px;
+}
+
+.nav-self {
+  display: inline-block;
+  margin-top: 40px;
+
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.ul-pad {
+  padding: 15px;
+  font-weight: bold;
+
+}
+
+.ul-pad a {
+  color: #545454;
+  font-size: 16px;
+}
+
+.dropdown-menu li a {
+  font-size: 15px;
+}
+
+
+.icon {
+	display: inline-block;
+	margin: 30px;
+}
+
+.nav-self {
+	display: inline-block;
+	margin-top: 40px;
+
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.ul-pad {
+	padding: 15px;
+	font-weight: bold;
+
+}
+
+.ul-pad a {
+	color: #545454;
+	font-size: 16px;
+}
+
+.dropdown-menu li a {
+	font-size: 15px;
+}
+
+.comments {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 2px solid #dde3e4;
+  border-radius: 5px;
+}
+
+.comments-user {
+  display: inline-block;
+  margin: 10px 10px 0px 10px;
+}
+
+.comments-user-icon {
+  display: inline-block;
+}
+
+.comments-user-info {
+  display: inline-block;
+}
+
+.comments-content {
+  margin-left: 70px;
+}
+
+.comments-reply {
+  position: relative;
+  right: 20px;
+  bottom: 25px;
+}
+
+.input-comments {
+  margin-top: 25px;
+}
+
+.fresh-thing {
+  margin-top: 45px;
+}
+
+.all-reply {
+  background-color: #ffffff;
+  margin-left: 70px;
+}
+
