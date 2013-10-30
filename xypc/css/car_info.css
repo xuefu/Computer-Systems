@@ -14,7 +14,7 @@ body {
 .nav-self {
 	display: inline-block;
 	margin-top: 40px;
-
+  margin-right: 10px;
 }
 
 ul li {

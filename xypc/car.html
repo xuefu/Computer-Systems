@@ -9,6 +9,8 @@
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
     <link href="css/car_info.css" rel="stylesheet" media="screen">
 
+    <script src="js/bootstrap.min.js"></script>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="../../assets/js/html5shiv.js"></script>
@@ -16,119 +18,118 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <div class="headers">
-        <div class="icon">
-          <a href="index.html" class="brand"><img src="img/img.png"></a>
-        </div>
-
-        <div class="pull-right nav-self">
-          <ul>
-            <li class="ul-pad"><a href="discover.html">浏览发现</a></li>
-            <li class="ul-pad"><a href="cat_all.html">车主动态</a></li>
-            <li class="ul-pad"><a href="#">提醒</a></li>
-            <li class="divider-vertical"></li>
-            <li class="dropdown ul-pad">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="user.html">释<strong class="caret"></strong></a>
-            <ul class="dropdown-menu pull-right">
-              <li><a href="user.html">我的空间</a></li>
-              <li><a href="#">个人资料设置</a></li>
-              <li><a href="#">我的收藏</a></li>
-              <li class="divider"></li>
-              <li><a href="#">退出</a></li>
-            </ul>
-          </ul>
-        </div>
+    <div class="headers">
+      <div class="icon">
+        <a href="index.html" class="brand"><img src="img/img.png"></a>
       </div>
-      <br />
-      <br />
-      <br />
+
+      <div class="pull-right nav-self">
+        <ul>
+          <li class="ul-pad"><a href="discover.html">浏览发现</a></li>
+          <li class="ul-pad"><a href="cat_all.html">车主动态</a></li>
+          <li class="ul-pad"><a href="#">提醒</a></li>
+          <li class="divider-vertical"></li>
+          <li class="dropdown ul-pad">
+          <a data-toggle="dropdown" class="dropdown-toggle" href="user.html">樱空释<strong class="caret"></strong></a>
+          <ul class="dropdown-menu pull-right">
+            <li><a href="user.html">我的空间</a></li>
+            <li><a href="#">个人资料设置</a></li>
+            <li><a href="#">我的收藏</a></li>
+            <li class="divider"></li>
+            <li><a href="#">退出</a></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
 
 
+    <div class="container">
       <div class="pinche-info">
         <h4>拼车信息</h4>
         <form class="form-horizontal" action="" method="get" accept-charset="utf-8">
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">起点</label>
-          <div class="controls">
-            <input class="input-small" type="text" id="input-start" placeholder="市">
-            <input class="input-small" type="text" id="input-start" placeholder="县">
-            <input class="input-medium" type="text" id="input-start" placeholder="区／大学">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">起点</label>
+            <div class="controls">
+              <input class="input-small" type="text" id="input-start" placeholder="市">
+              <input class="input-small" type="text" id="input-start" placeholder="县">
+              <input class="input-medium" type="text" id="input-start" placeholder="区／大学">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">终点</label>
-          <div class="controls">
-            <input class="input-small" type="text" id="input-start" placeholder="市">
-            <input class="input-small" type="text" id="input-start" placeholder="县">
-            <input class="input-medium" type="text" id="input-start" placeholder="区／大学">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">终点</label>
+            <div class="controls">
+              <input class="input-small" type="text" id="input-start" placeholder="市">
+              <input class="input-small" type="text" id="input-start" placeholder="县">
+              <input class="input-medium" type="text" id="input-start" placeholder="区／大学">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">出发日期</label>
-          <div class="controls">
-            <input class="input-medium" type="text" id="input-start" placeholder="出发日期">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">出发日期</label>
+            <div class="controls">
+              <input class="input-medium" type="text" id="input-start" placeholder="出发日期">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">出发时间</label>
-          <div class="controls">
-            <input class="input-small" type="text" id="input-start" placeholder="出发时间">
-            <input class="input-small" type="text" id="input-start" placeholder="出发时间">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">出发时间</label>
+            <div class="controls">
+              <input class="input-small" type="text" id="input-start" placeholder="出发时间">
+              <input class="input-small" type="text" id="input-start" placeholder="出发时间">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">提供座位</label>
-          <div class="controls">
-            <input class="input-small" type="text" id="input-start" placeholder="座位数量">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">提供座位</label>
+            <div class="controls">
+              <input class="input-small" type="text" id="input-start" placeholder="座位数量">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">价格</label>
-          <div class="controls">
-            <input class="input-small" type="text" id="input-start" placeholder="价格">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">价格</label>
+            <div class="controls">
+              <input class="input-small" type="text" id="input-start" placeholder="价格">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">备注</label>
-          <div class="controls">
-            <input class="input-large" type="text" id="input-start" placeholder="备注">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">备注</label>
+            <div class="controls">
+              <input class="input-large" type="text" id="input-start" placeholder="备注">
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
         <h4>联系方式</h4>
         <form class="form-horizontal" action="" method="get" accept-charset="utf-8">
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">称呼</label>
-          <div class="controls">
-            <input class="input-small" type="text" id="input-start" placeholder="称呼">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">称呼</label>
+            <div class="controls">
+              <input class="input-small" type="text" id="input-start" placeholder="称呼">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">QQ</label>
-          <div class="controls">
-            <input class="input-medium" type="text" id="input-start" placeholder="QQ">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">QQ</label>
+            <div class="controls">
+              <input class="input-medium" type="text" id="input-start" placeholder="QQ">
+            </div>
           </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">手机</label>
-          <div class="controls">
-            <input class="input-medium" type="text" id="input-start" placeholder="手机">
+          <div class="control-group">
+            <label class="control-label" for="inputEmail">手机</label>
+            <div class="controls">
+              <input class="input-medium" type="text" id="input-start" placeholder="手机">
+            </div>
           </div>
-        </div>
-        <br />
-        <button class="btn btn-large btn-success pull-right" type="submit">确认发布</button>
+          <br />
+          <button class="btn btn-large btn-success pull-right" type="submit">确认发布</button>
         </form>
       </div>
 
-      
-  </div>
-  <hr>
+
+    </div>
+    <hr>
 
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="//code.jquery.com/jquery.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  </body>
 </html>
